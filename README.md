@@ -1,7 +1,6 @@
 # ATDM Toradex oe-core Setup
 
-Since OpenEmbedded requires several git repositories to build our images, starting with V2.1 images, <br/>
-we use a utility called 'repo'. The repo manifest manages the various git repositories and their branches.<br/>
+Starting with V2.1 images, OpenEmbedded requires multiple git repositories to build our images. To manage this complexity, we use a utility called 'repo'. The repo manifest handles the various git repositories and their respective branches.
 
 Install the repo bootstrap binary: <br/>
 
