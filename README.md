@@ -11,8 +11,7 @@ $  curl https://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin
 $  chmod a+x ~/bin/repo
 ```
 
-This manifest allows setting up TorizonCore or Toradex Images for ATDM platform.
-The final build will prepare Tezi image that can be installed on ATDM board.
+This manifest facilitates the setup of TorizonCore or Toradex Images for the ATDM platform. The final build will generate a TEZI image that can be installed on the ATDM board.
 
 ## Pre-requisite for yocto compilation
 
@@ -20,10 +19,10 @@ The final build will prepare Tezi image that can be installed on ATDM board.
 
 ## Repo init link
 
-Currently we are supporting **kirkstone** branch. We have also added support for master branch but not sure for compilation success. <br/>
+We currently support the Kirkstone branch and have also added support for the master branch, but its compilation success is not guaranteed.
 
 ```
-$ repo init -u https://github.com/DeviceSolutions/toradex-manifest.git -b kirkstone-6.x.y -m torizoncore/atdm.xml
+$ repo init -u https://github.com/AndroInt/atdm-manifest.git -b kirkstone-6.x.y -m torizoncore/atdm.xml
 $ repo sync
 ```
 
