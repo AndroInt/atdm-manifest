@@ -1,4 +1,4 @@
-# DeviceSolution Toradex oe-core Setup
+# ATDM Toradex oe-core Setup
 
 Since OpenEmbedded requires several git repositories to build our images, starting with V2.1 images, <br/>
 we use a utility called 'repo'. The repo manifest manages the various git repositories and their branches.<br/>
@@ -13,7 +13,7 @@ $  chmod a+x ~/bin/repo
 ```
 
 This manifest allows setting up TorizonCore or Toradex Images for ATDM platform.
-Final build will prepare Tezi image that can be installed on ATDM board.
+The final build will prepare Tezi image that can be installed on ATDM board.
 
 ## Pre-requisite for yocto compilation
 
